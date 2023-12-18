@@ -1,0 +1,254 @@
+
+body{
+  background-color: #ffffff;
+}
+.mhtxt{
+  color: #f5f5f7;
+  font-size:300%;
+  font-weight: 600;
+  text-decoration: underline solid 5px #f5f5f7;
+}
+.mh2txt{
+  color: #f5f5f7;
+  font-size:200%;
+  font-weight: 600;
+  text-decoration: underline solid 5px #f5f5f7;
+}
+.hltxt_w{
+  color: #f5f5f7;
+  font-weight:500;
+}
+.hltxt_g{
+  color: #3aff6b;
+  font-weight:500;
+}
+.hltxt_b{
+  color: #47b1fd;
+  font-weight:500;
+}
+.hltxt_r{
+  color: #fb5f57;
+  font-weight:500;
+}
+.mtxt{
+  color: #86868b;
+  font-size: 200%;
+}
+.m2txt{
+  color: #86868b;
+  font-size: 150%;
+}
+
+/** Section 1 **/
+
+#s1{
+  background-color: #020129;
+  background-image: url('../Resources/S1.png');
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50vh;
+  width: 100%;
+  top: 11%;
+}
+#txt1_1{
+  font-size: 400%;
+  font-weight: 2-00;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 30%;
+  z-index: 2;
+}
+#txt1_2{
+  color: #fff;
+  text-align: center;
+  width: 70%;
+  position: relative;
+  top: 30%;
+  left: 13%;
+  z-index: 2;
+}
+#btn1{
+  z-index: 2;
+  position: relative;
+  top: 30%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.btn1_1{
+  color: #000000;
+  font-size: large;
+  font-style: bold;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 1;
+  transition: background-color 0.5s ease-in-out;
+  background-color: #fff;
+}
+.btn1_1:hover{
+  border: 1px solid #fff;
+  color: #fff;
+  text-decoration: underline;
+
+  background-color: transparent;
+}
+
+
+/** Section2 **/
+#show_1{
+  opacity: 0;
+  text-align: center;
+  transition: all 3s ease-out;
+}
+#show_1.show {
+  opacity: 1;
+  transition: opacity 1s, transform 1s;
+}
+#show_2{
+  opacity: 0;
+  text-align: center;
+  transition: all 3s ease-out;
+}
+#show_2.show {
+  opacity: 1;
+  transition: opacity 1s, transform 1s;
+}
+
+#s2{
+  position: relative;
+  padding-top: 1%;
+  background-color: #01001b;
+  padding-bottom: 5%;
+}
+
+#img2_1{
+  border-radius: 10px;
+  box-shadow: 0 16px 40px 0px #ffffff;
+}
+
+/** Section3 **/
+#s3{
+  padding-bottom: 10%;
+  position: relative;
+  background-color: #01001b
+}
+#show_3 {
+  width: 100%;
+  opacity: 0;
+  text-align: center;
+  transition: all 3s ease-out;
+}
+#show_3.show {
+  opacity: 1;
+  transition: opacity 1s, transform 1s;
+}
+
+
+/** Section 4 **/
+#s4{
+  position: relative;
+  padding-top: 10%;
+  background-color: #01001b;
+}
+#show_4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  opacity: 0;
+  text-align: center;
+  transition: all 3s ease-out;
+}
+#show_4.show {
+  opacity: 1;
+  transition: opacity 1s, transform 1s;
+}
+#img4_1{
+  border-radius: 20px;
+  box-shadow: 0 0px 99px 1px rgb(174, 186, 249);
+}
+#img4_2{
+  border-radius: 20px;
+  box-shadow: 0 0px 99px 1px rgb(174, 186, 249);
+}
+
+/** Section 5 **/
+#s5{
+  position: relative;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  background-color: #01001b;
+}
+#show_5 {
+  width: 100%;
+  opacity: 0;
+  text-align: center;
+  transition: all 3s ease-out;
+}
+#show_5.show {
+  opacity: 1;
+  transition: opacity 1s, transform 1s;
+}
+
+/** Section 6 **/
+#show_6{
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 3s ease-out;
+}
+#show_6.show {
+  opacity: 1;
+  transition: opacity 1s, transform 1s;
+}
+#s6{
+
+  padding-bottom: 5%;
+  position: relative;
+}
+#s6_start{
+  text-align: center;
+}
+#img6_1{
+  width: 200px;
+  transition: 1s ease-in-out;
+  border-radius: 30px;
+  box-shadow: 0px 30px 40px #020129; 
+}
+#img6_1:hover{
+  width: 190px;
+  box-shadow: 0px 0px 160px #020129;
+}
+#b6_1{
+  height: 60px ;
+  width: 150px ;
+  font-size: large;
+  border: none;
+  color: #ffffff;
+  border-radius: 30px;
+  background-color: #020129;
+  transition:  0.5s ease-in-out;
+}
+#b6_1:hover{
+  background-color: transparent;
+  border-color: #020129;
+  border: 3px solid;
+  box-shadow: 0 16px 40px 0px #020129; 
+  color: #020129;
+}
+
+/** Section 7 **/
+#s7 {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 645%;
+}
+
+
+/** Footer **/
+footer{
+  top: 650%;
+}
