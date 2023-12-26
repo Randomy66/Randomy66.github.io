@@ -1,0 +1,51 @@
+/** Section 1 **/
+#s1{
+    position: relative;
+    padding: 20px;
+    text-align: center;
+
+    background-color: #010021;
+}
+#c1_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#txt1_1{
+    color: #ffffff;
+    font-size: 30px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+}
+#img1_1, #img1_2{
+    width: 240px;
+    margin: 30px;
+    border-radius: 20px;
+    transition: 1s ease-in-out;
+    box-shadow: 0px 0px 80px #fff;
+}
+#img1_1:hover, #img1_2:hover{
+    width: 250px;
+    box-shadow: 0px 30px 40px #fff;
+}
+
+#img2_1{
+    transition: 1s ease-in-out;
+    border-radius: 30px;
+    width: 190px;
+    box-shadow: 0px 0px 160px #020129;
+}
+#img2_1:hover{
+    width: 200px;
+    box-shadow: 0px 30px 40px #020129; 
+}
+/** Section 3 **/
+#s3{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 215%;
+}
+/** Footer **/
+footer{
+    top: 220%;
+}
