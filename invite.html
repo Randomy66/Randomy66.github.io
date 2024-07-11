@@ -8,12 +8,12 @@
     <meta name="author" content="AN_devs">
     <meta property="og:title" content="Randomy">
     <meta property="og:description" content="Our discord bot that can choose everything for you in many fun ways!">
-    <meta property="og:image" content="URL_to_your_image">
-    <meta property="og:url" content="URL_to_your_website">
-    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:image" content="https://randomy66.github.io/Resources/Logo.png">
+    <meta property="og:url" content="https://randomy66.github.io">
+    <meta name="twitter:card" content="https://randomy66.github.io/Resources/Logo.png">
     <meta name="twitter:title" content="Randomy">
     <meta name="twitter:description" content="Our discord bot that can choose everything for you in many fun ways!">
-    <meta name="twitter:image" content="URL_to_your_image">
+    <meta name="twitter:image" content="https://randomy66.github.io/Resources/Logo.png">
 
     <link rel="stylesheet" href="CSS/invite.css">
     <link rel="stylesheet" href="CSS/style.css">
@@ -35,7 +35,7 @@
             </a>
             <a href="index.html"><button class="htxt"> Home </button></a>
           <a href="invite.html"><button id="chtxt" class="htxt">Invite</button></a>
-          <a href="demo.html"><button class="htxt" id="htxt">Demo</button></a>
+          <a href="updates.html"><button class="htxt">Update</button></a>
           <a href="about.html"><button class="htxt">About Us</button></a>
           <a href="contact.html"><button class="htxt">Contact Us</button></a>
           <p></p>
@@ -44,17 +44,19 @@
     <br/><br/><br/><br/><br/><br/><br/>
     <!--section1-->
     <section id="s1">
-        <h1 id="htxt1_1">Scan the QR-code or by clicking go to get into discord official invite page</h1>
+        <h1 id="htxt1_1">Scan one of these QR-code or by clicking go to get into discord official invite page</h1>
         
-        <div style="text-align: center; padding: 25px;">
-        <img style="border-radius: 10%;"  src="Resources/QRcode.jpg" alt="QR-code" width="370px">
-         <a href="Resources/QRcode.jpg" download><button id="btn1_1">⬇</button></a>
+        <div style="text-align: center; padding: 25px;display: flex;   justify-content: center;   align-items: center;">
+
+        <img id="QR" style="border-radius: 10%;"  src="Resources/QR_2.png" alt="QR-code" >
+        <button onclick="QR()" id="btn1_1">></button>
         </div>
+        <p id="ch_QR" style="color: white;" onclick="ch_QR()">QR code doesn't work?</p>
         <div style="padding: 25px;">
-         <a href="https://discord.com/api/oauth2/authorize?client_id=1127268850732376184&permissions=274878687296&scope=bot" target="_blank"> <button id="btn1_2">Go Now!</button></a>
+         <a href="https://discord.com/oauth2/authorize?client_id=1127268850732376184" target="_blank"> <button id="btn1_2">Go Now!</button></a>
         </div>
         <div style="text-align: left; padding: 25px;">
-          <input type="text" value="https://discord.com/api/oauth2/authorize?client_id=1127268850732376184&permissions=274878687296&scope=bot" id="i1_1" readonly>
+          <input type="text" value="https://discord.com/oauth2/authorize?client_id=1127268850732376184" id="i1_1" readonly>
         </div>    
 
         <button id="btn1_3">Copied!</button>
@@ -67,15 +69,16 @@
     <section id="s2">
       <h1 style="text-align: center; text-decoration: underline; text-decoration-thickness: 4px; text-decoration-color: #050096; ">Invite Randomy to your server!</h1>
       <div style="margin-left: 10%; width: 90%;">
-      <h4>1. Go to 
-        <a class="ftr_a" target="_blank" href="https://discord.com/api/oauth2/authorize?client_id=1127268850732376184&permissions=274878687296&scope=bot" style="word-break: break-all;">
-            "https://discord.com/api/oauth2/authorize?client_id=1127268850732376184&274878687296&scope=bot"
-        </a>
-        by clicking <a href="#s1" class="ftr_a"> "Go Now" </a> or scanning the <a href="#s1" class="ftr_a">"QR code"</a>.
-    </h4>
-      <h4 >2. Login to your discord account</h4>
-        <h4 >3. Choose the Server that you want to add <span class="txt2_1">Randomy</span>, click continue</h4>
-        <h4 >4. Check the box that you want to grant <span class="txt2_1">Randomy</span> following permissions. "Note that some feature won't work if you don't grant some permissions." Click Authorize.</h4>
+        <h4>1. Go to 
+          <a class="ftr_a" target="_blank" href="https://discord.com/oauth2/authorize?client_id=1127268850732376184" style="word-break: break-all;">
+              "https://discord.com/oauth2/authorize?client_id=1127268850732376184"
+          </a>
+          by clicking <a href="#s1" class="ftr_a"> "Go Now" </a> or scanning the <a href="#s1" class="ftr_a">"QR code"</a>.
+        </h4>
+        <h4>2. Login to your discord account {If isn't already log in}</h4>
+        <h4>3. Click "Add to Server"</h4>
+        <h4>4. Choose the Server that you want to add <span class="txt2_1">Randomy</span>, click continue</h4>
+        <h4>5. Check the box that you want to grant <span class="txt2_1">Randomy</span> following permissions. "Note that some feature won't work if you don't grant all permissions." Click Authorize.</h4>
         </div>
           <h4 style="text-align: center;">And All Done!</h4>
         <div></div>
@@ -85,7 +88,9 @@
           </a>
         </div>
     </section>
-
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br>
     <!--section3-->
     <section id="s3">
       <a target="_blank" href="https://discordapp.com/users/1190996445386522685">
@@ -105,7 +110,7 @@
      <!--footer-->
      <footer>
       <p> </p>
-      <p style="text-align: center;">Version: 2.0</p>
+      <p style="text-align: center;">Version: 2.1</p>
         <p style="text-align: center;"> <a class="ftr_a" href="index.html">Start </a> > <a class="ftr_a" href="invite.html">invite</a></p>
       <a class="ftr_a" href="Resources/Privacy Policy.pdf">
         <p style="text-align: center;">Privacy Policy</p>
