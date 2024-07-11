@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://randomy66.github.io/</loc>
+  <lastmod>2024-07-11T16:59:51+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://randomy66.github.io/index.html</loc>
+  <lastmod>2024-07-11T16:59:51+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://randomy66.github.io/invite.html</loc>
+  <lastmod>2024-07-11T16:59:51+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://randomy66.github.io/updates.html</loc>
+  <lastmod>2024-07-11T16:59:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://randomy66.github.io/about.html</loc>
+  <lastmod>2024-07-11T16:59:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://randomy66.github.io/contact.html</loc>
+  <lastmod>2024-07-11T16:59:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://randomy66.github.io/Resources/Privacy%20Policy.pdf</loc>
+  <lastmod>2024-07-11T16:59:51+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://randomy66.github.io/Resources/Terms_Of_Service.pdf</loc>
+  <lastmod>2024-07-11T16:59:51+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+
+
+</urlset>
